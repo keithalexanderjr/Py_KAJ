@@ -1,0 +1,28 @@
+TripPlanner V1.0.
+
+Create a function called trip_planner_welcome() that takes one parameter called name. The function should use print() to output a message like this:
+ 
+ 
+Welcome to tripplanner v1.0 <Name Here>
+Where <Name Here> represents the parameter variable of name we defined.
+Call trip_planner_welcome(), passing your name as an argument.
+ 
+Part II
+
+Next, we are going to define a function called estimated_time_rounded() that will allow us to calculate a rounded time value based on a decimal for our user’s trip.
+
+An example call for this function will look like this:
+ 
+estimated_time_rounded(2.5)
+
+[Where 2 represents 2 hours and .5 represents 30 minutes.]
+
+Define the function estimated_time_rounded() with a single parameter estimated_time. The function should do two things:
+Create a variable called rounded_time that is the result of calling the round() built-in function on the parameter estimated_time.
+Return rounded_time.
+
+After the function definition, call estimated_time_rounded() with a decimal argument and save the result to a variable called estimate. Since this amount represents a time, be sure to use a positive number.
+ 
+We have successfully finished our first version of the trip builder application. Test passing different values into functions located: trip_planner_kaj
+ 
+Output: trip_planner_kaj.pdf
